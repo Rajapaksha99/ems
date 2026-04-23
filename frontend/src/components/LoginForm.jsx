@@ -70,7 +70,7 @@ const LoginForm = ({ role, title, subtitle }) => {
           )}
 
           {/* Form */}
-          <form className='space-y-5' onSubmit={handleSubmit}>
+          <form className='space-y-6' onSubmit={handleSubmit}>
 
             {/* Email */}
             <div>
@@ -114,6 +114,8 @@ const LoginForm = ({ role, title, subtitle }) => {
                     <EyeIcon size={18} />
                   )}
                 </button>
+                
+                
               </div>
             </div>
 
